@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @AbhishekPBansode
 - 👀 I’m interested in ...Learning new skills 
-- 🌱 I’m currently learning ...Git and GitHub 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me :- Mail at bansodeabhishek43@gmail.com
 
