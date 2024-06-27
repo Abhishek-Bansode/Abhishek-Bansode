@@ -14,7 +14,10 @@
 
 - 💬 Ask me about **Android | Java | Kotlin**
 
-- ⚡ Fun fact **I think I'm funny :)**
+- <a href='https://github.com/marketplace/actions/quote-readme'>
+<!--STARTS_HERE_QUOTE_README-->
+<!--ENDS_HERE_QUOTE_README-->
+</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
