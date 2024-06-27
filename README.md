@@ -8,11 +8,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abhishek-bansode&label=Profile%20views&color=0e75b6&style=flat" alt="abhishek-bansode" /> </p>
 
-- 🌱 I’m currently learning **Flutter**
+- 🌱 I’m currently learning **- Android Development with Kotlin**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Abhishek-Bansode](https://github.com/Abhishek-Bansode)
 
-- 💬 Ask me about **Android | Java | Flutter**
+- 💬 Ask me about **Android | Java | Kotlin**
 
 - ⚡ Fun fact **I think I'm funny :)**
 
