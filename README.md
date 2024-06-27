@@ -1,12 +1,10 @@
 [![MasterHead](https://miro.medium.com/v2/resize:fit:828/0*JQy9xS3ia5EUh8DA)](https://rishavchanda.io)
 
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=header&text=Hey%20Everyone!🕹️&fontSize=60)
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Hey Everyone!🕹️&animation=fadeIn&type=waving&color=gradient&height=100"/>
-</p>
 <h3 align="center">A passionate Android developer from India</h3>
 
-<img align="right" alt="Coding" width="390" src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966">
+<img align="right" alt="Coding" width="390" src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966](https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abhishek-bansode&label=Profile%20views&color=0e75b6&style=flat" alt="abhishek-bansode" /> </p>
 
@@ -32,3 +30,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abhishek-bansode&show_icons=true&locale=en" alt="abhishek-bansode" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abhishek-bansode&" alt="abhishek-bansode" /></p>
+
+![Snake animation](https://github.com/Abhishek-Bansode/Abhishek-Bansode/blob/output/github-contribution-grid-snake.svg)
+
