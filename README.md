@@ -1,4 +1,3 @@
-[![MasterHead](https://miro.medium.com/v2/resize:fit:828/0*JQy9xS3ia5EUh8DA)](https://rishavchanda.io)
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=header&text=Hey%20Everyone!🕹️&fontSize=60)
 
