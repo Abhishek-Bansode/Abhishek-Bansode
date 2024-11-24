@@ -15,11 +15,11 @@
 # 💫 About Me:
 - 🔭 I’m currently working on: [SonicAura-Backend](https://github.com/Abhishek-Bansode/sonicaura)
 
-- 🌱 I’m currently learning: **Java | Spring | SpringBoot | Backend**
+- 🌱 I’m currently learning: **Java | Spring | SpringBoot | AWS | Backend Development**
 
 - 👨‍💻 All of my projects are available at [https://github.com/Abhishek-Bansode](https://github.com/Abhishek-Bansode)
 
-- 💬 Ask me about: **Java | Spring | SpringBoot | Backend**
+- 💬 Ask me about: **Java | Spring | SpringBoot | AWS | Backend Development**
 
 - ⚡ Fun fact: **I think I'm funny :)**
 
