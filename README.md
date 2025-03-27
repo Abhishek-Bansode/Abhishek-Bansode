@@ -17,7 +17,7 @@
 
 - 🌱 I’m currently learning: **Java | Spring | SpringBoot | AWS | Backend Development**
 
-- 👨‍💻 All of my projects are available at [https://github.com/Abhishek-Bansode](https://github.com/Abhishek-Bansode)
+- 👨‍💻 All of my projects are available at - [Portfolio](https://abhishek-bansode.netlify.app/)
 
 - 💬 Ask me about: **Java | Spring | SpringBoot | AWS | Backend Development**
 
