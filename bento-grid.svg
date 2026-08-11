@@ -1,0 +1,42 @@
+<svg fill="none" viewBox="0 0 800 310" width="800" height="310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .inter { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif; }
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="800" height="310" rx="16" fill="#030712"/>
+
+  <!-- Card 1: Core System Architecture (Large Top Left) -->
+  <rect x="10" y="10" width="510" height="180" rx="12" fill="#090D16" stroke="#1E293B" stroke-width="1.2"/>
+  <text class="mono" fill="#38BDF8" font-size="11" font-weight="600" x="30" y="38">01 // CORE COMPETENCY</text>
+  <text class="inter" fill="#F8FAFC" font-size="18" font-weight="700" x="30" y="66">Distributed Backend Engineering</text>
+  <text class="inter" fill="#94A3B8" font-size="13" x="30" y="90">Architecting fault-tolerant REST APIs, event-driven pipelines, and relational database systems with clean domain modeling.</text>
+  
+  <rect x="30" y="115" width="470" height="52" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text class="mono" fill="#64748B" font-size="10" x="45" y="135">PRIMARY TECH:</text>
+  <text class="mono" fill="#38BDF8" font-size="11" font-weight="600" x="145" y="135">Java 21 · Spring Boot 3 · PostgreSQL · AWS</text>
+  <text class="mono" fill="#64748B" font-size="10" x="45" y="153">PATTERNS:</text>
+  <text class="mono" fill="#F8FAFC" font-size="11" x="145" y="153">Microservices · Event-Driven · AST Traversal</text>
+
+  <!-- Card 2: Open Source Impact (Top Right) -->
+  <rect x="530" y="10" width="260" height="180" rx="12" fill="#090D16" stroke="#1E293B" stroke-width="1.2"/>
+  <text class="mono" fill="#A855F7" font-size="11" font-weight="600" x="550" y="38">02 // OPEN SOURCE</text>
+  <text class="inter" fill="#F8FAFC" font-size="16" font-weight="700" x="550" y="66">Checkstyle Engine</text>
+  <text class="inter" fill="#94A3B8" font-size="12" x="550" y="90">Active contributor to static analysis validation and AST rule checks.</text>
+  <rect x="550" y="125" width="220" height="42" rx="6" fill="#1E1035" stroke="#581C87" stroke-width="1"/>
+  <text class="mono" fill="#C084FC" font-size="11" font-weight="600" x="565" y="150">checkstyle/checkstyle ↗</text>
+
+  <!-- Card 3: Currently Building (Bottom Left) -->
+  <rect x="10" y="200" width="250" height="100" rx="12" fill="#090D16" stroke="#1E293B" stroke-width="1.2"/>
+  <text class="mono" fill="#34D399" font-size="11" font-weight="600" x="30" y="228">03 // CURRENT FOCUS</text>
+  <text class="inter" fill="#F8FAFC" font-size="14" font-weight="700" x="30" y="254">Kafka Event Streaming</text>
+  <text class="inter" fill="#94A3B8" font-size="11" x="30" y="275">Building decoupled message queues.</text>
+
+  <!-- Card 4: Engineering Mindset (Bottom Right) -->
+  <rect x="270" y="200" width="520" height="100" rx="12" fill="#090D16" stroke="#1E293B" stroke-width="1.2"/>
+  <text class="mono" fill="#F59E0B" font-size="11" font-weight="600" x="290" y="228">04 // ARCHITECTURAL PHILOSOPHY</text>
+  <text class="inter" fill="#F8FAFC" font-size="13" font-weight="600" x="290" y="254">"System simplicity precedes performance. Correctness > Cleverness."</text>
+  <text class="inter" fill="#64748B" font-size="11" x="290" y="275">Focused on maintainability, observable APIs, and robust error contracts.</text>
+</svg>

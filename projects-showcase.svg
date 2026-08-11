@@ -1,0 +1,38 @@
+<svg fill="none" viewBox="0 0 800 230" width="800" height="230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .inter { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif; }
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="800" height="230" rx="16" fill="#030712"/>
+
+  <!-- Project Card 1 -->
+  <rect x="10" y="10" width="380" height="210" rx="12" fill="#090D16" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="30" y="30" width="85" height="20" rx="10" fill="#065F46" fill-opacity="0.3" stroke="#10B981" stroke-width="1"/>
+  <text class="mono" fill="#34D399" font-size="9" font-weight="600" x="42" y="43">PRODUCTION</text>
+  
+  <text class="inter" fill="#F8FAFC" font-size="16" font-weight="700" x="30" y="78">Smart Parking Management</text>
+  <text class="inter" fill="#94A3B8" font-size="12" x="30" y="102">Automated IoT backend system for real-time slot detection, reservation, and occupancy locks.</text>
+
+  <text class="mono" fill="#64748B" font-size="10" x="30" y="145">STACK:</text>
+  <text class="mono" fill="#38BDF8" font-size="11" font-weight="600" x="78" y="145">Java · Spring Boot · Microcontrollers</text>
+
+  <rect x="30" y="165" width="140" height="32" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text class="inter" fill="#F8FAFC" font-size="11" font-weight="600" x="48" y="185">View System ↗</text>
+
+  <!-- Project Card 2 -->
+  <rect x="410" y="10" width="380" height="210" rx="12" fill="#090D16" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="430" y="30" width="85" height="20" rx="10" fill="#3B0764" fill-opacity="0.3" stroke="#A855F7" stroke-width="1"/>
+  <text class="mono" fill="#C084FC" font-size="9" font-weight="600" x="442" y="43">CORE CONTRIB</text>
+  
+  <text class="inter" fill="#F8FAFC" font-size="16" font-weight="700" x="430" y="78">Checkstyle Static Engine</text>
+  <text class="inter" fill="#94A3B8" font-size="12" x="430" y="102">Contributed AST parsing rules, performance optimizations, and rule validation logic.</text>
+
+  <text class="mono" fill="#64748B" font-size="10" x="430" y="145">STACK:</text>
+  <text class="mono" fill="#A855F7" font-size="11" font-weight="600" x="478" y="145">Java 17+ · AST Parsing · JUnit 5</text>
+
+  <rect x="430" y="165" width="150" height="32" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text class="inter" fill="#F8FAFC" font-size="11" font-weight="600" x="448" y="185">Inspect Commits ↗</text>
+</svg>

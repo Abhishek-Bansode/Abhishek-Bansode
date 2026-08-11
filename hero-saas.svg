@@ -1,0 +1,75 @@
+<svg fill="none" viewBox="0 0 800 320" width="800" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Ambient Glows -->
+    <radialGradient id="hero-glow" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#818CF8" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glass Button Gradient -->
+    <linearGradient id="btn-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <style>
+      .pulse-dot { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; r: 4.5px; } 50% { opacity: 0.3; r: 7px; } }
+      .inter { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif; }
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <!-- Canvas Base -->
+  <rect width="800" height="320" rx="16" fill="#030712"/>
+  <rect width="800" height="320" rx="16" fill="url(#hero-glow)"/>
+  <rect x="1" y="1" width="798" height="318" rx="15" stroke="#1E293B" stroke-width="1.2"/>
+
+  <!-- Top Mock SaaS Navigation Bar -->
+  <rect x="20" y="18" width="760" height="42" rx="10" fill="#0F172A" fill-opacity="0.7" stroke="#1E293B" stroke-width="1"/>
+  
+  <!-- Logo / Brand -->
+  <text class="mono" fill="#F8FAFC" font-size="12" font-weight="700" x="40" y="43">ABHISHEK.DEV</text>
+  <text class="mono" fill="#38BDF8" font-size="12" font-weight="700" x="128" y="43">v2.5</text>
+
+  <!-- Nav Links Mock -->
+  <text class="inter" fill="#94A3B8" font-size="11" font-weight="500" x="280" y="43">Systems</text>
+  <text class="inter" fill="#94A3B8" font-size="11" font-weight="500" x="350" y="43">Architecture</text>
+  <text class="inter" fill="#94A3B8" font-size="11" font-weight="500" x="440" y="43">Projects</text>
+  <text class="inter" fill="#94A3B8" font-size="11" font-weight="500" x="510" y="43">Open Source</text>
+
+  <!-- Available for Work Pill -->
+  <rect x="615" y="27" width="150" height="24" rx="12" fill="#065F46" fill-opacity="0.3" stroke="#10B981" stroke-width="1"/>
+  <circle cx="630" cy="39" r="4.5" fill="#10B981" class="pulse-dot"/>
+  <text class="mono" fill="#34D399" font-size="10" font-weight="600" x="642" y="42">AVAILABLE FOR HIRE</text>
+
+  <!-- Hero Content -->
+  <text class="mono" fill="#38BDF8" font-size="12" font-weight="600" x="40" y="102">// BACKEND SYSTEMS ARCHITECT</text>
+  <text class="inter" fill="#F8FAFC" font-size="36" font-weight="800" letter-spacing="-0.02em" x="40" y="145">Abhishek Bansode</text>
+  <text class="inter" fill="#94A3B8" font-size="15" font-weight="400" x="40" y="180">Engineered for high concurrency, low latency, and distributed resilience.</text>
+
+  <!-- Value Badges Row -->
+  <g transform="translate(40, 210)">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="140" height="32" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text class="mono" fill="#F8FAFC" font-size="11" font-weight="500" x="12" y="20">☕ Java / Spring</text>
+    
+    <!-- Badge 2 -->
+    <rect x="150" y="0" width="140" height="32" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text class="mono" fill="#F8FAFC" font-size="11" font-weight="500" x="162" y="20">☁️ AWS Cloud</text>
+
+    <!-- Badge 3 -->
+    <rect x="300" y="0" width="170" height="32" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text class="mono" fill="#F8FAFC" font-size="11" font-weight="500" x="312" y="20">⚡ Checkstyle Core</text>
+  </g>
+
+  <!-- CTA Buttons -->
+  <g transform="translate(40, 262)">
+    <rect x="0" y="0" width="160" height="38" rx="8" fill="url(#btn-glow)"/>
+    <text class="inter" fill="#FFFFFF" font-size="12" font-weight="700" x="28" y="24">Explore Portfolio ↗</text>
+
+    <rect x="172" y="0" width="150" height="38" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text class="inter" fill="#CBD5E1" font-size="12" font-weight="600" x="200" y="24">View Architecture</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg fill="none" viewBox="0 0 800 280" width="800" height="280" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .pulse { animation: pulse-animation 2s infinite; }
+    .glow { filter: drop-shadow(0px 0px 8px rgba(56, 189, 248, 0.6)); }
+    @keyframes pulse-animation {
+      0% { r: 4px; opacity: 1; }
+      50% { r: 7px; opacity: 0.4; }
+      100% { r: 4px; opacity: 1; }
+    }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="280" rx="12" fill="#090D16"/>
+  <rect x="1" y="1" width="798" height="278" rx="11" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Radial Background Glow -->
+  <circle cx="400" cy="0" r="300" fill="#38BDF8" opacity="0.08"/>
+
+  <!-- Top macOS Window Header -->
+  <circle cx="25" cy="20" r="5" fill="#FF5F56"/>
+  <circle cx="40" cy="20" r="5" fill="#FFBD2E"/>
+  <circle cx="55" cy="20" r="5" fill="#27C93F"/>
+  <line x1="0" y1="38" x2="800" y2="38" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Live Status Pulse -->
+  <circle cx="710" cy="20" r="4" fill="#38BDF8" class="pulse"/>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" font-weight="600" x="722" y="24">SYSTEM LIVE</text>
+
+  <!-- Hero Content -->
+  <text fill="#94A3B8" font-family="monospace" font-size="12" x="40" y="80">&gt; INITIALIZING_DEVELOPER_NODE...</text>
+  <text fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" x="40" y="122">Abhishek Bansode</text>
+  <text fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" x="40" y="152" class="glow">Software Developer &amp; Backend Systems Architect</text>
+
+  <!-- Subtitle Tagline -->
+  <text fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" x="40" y="182">Engineering high-concurrency Spring Boot microservices, resilient APIs, and AWS infrastructure.</text>
+
+  <!-- Bottom Metric HUD -->
+  <rect x="40" y="210" width="720" height="42" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" x="60" y="235">PRIMARY:</text>
+  <text fill="#F8FAFC" font-family="monospace" font-size="11" x="125" y="235">Java / Spring Boot</text>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" x="310" y="235">OPEN SOURCE:</text>
+  <text fill="#F8FAFC" font-family="monospace" font-size="11" x="405" y="235">Checkstyle Contributor</text>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" x="590" y="235">CLOUD:</text>
+  <text fill="#F8FAFC" font-family="monospace" font-size="11" x="640" y="235">AWS Architecture</text>
+</svg>

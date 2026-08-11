@@ -1,0 +1,27 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" rx="10" fill="#090D16" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Column 1: Core Backend -->
+  <rect x="20" y="20" width="240" height="160" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" font-weight="600" x="35" y="45">01 // LANGUAGES &amp; CORE</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="35" y="75">• Java (SE/EE)</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="35" y="100">• Kotlin</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="35" y="125">• C / C++</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="35" y="150">• Data Structures &amp; Algo</text>
+
+  <!-- Column 2: Frameworks & Cloud -->
+  <rect x="280" y="20" width="240" height="160" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" font-weight="600" x="295" y="45">02 // FRAMEWORKS &amp; CLOUD</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="295" y="75">• Spring Boot / Hibernate</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="295" y="100">• AWS Services</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="295" y="125">• Microservices Architecture</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="295" y="150">• RESTful API Design</text>
+
+  <!-- Column 3: Data & DevOps -->
+  <rect x="540" y="20" width="240" height="160" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text fill="#38BDF8" font-family="monospace" font-size="11" font-weight="600" x="555" y="45">03 // DATA &amp; INFRA</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="555" y="75">• PostgreSQL / MySQL</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="555" y="100">• Redis / Caching</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="555" y="125">• Docker Containerization</text>
+  <text fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" x="555" y="150">• Apache Kafka</text>
+</svg>

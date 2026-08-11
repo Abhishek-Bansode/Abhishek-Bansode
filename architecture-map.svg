@@ -1,0 +1,50 @@
+<svg fill="none" viewBox="0 0 800 180" width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <style>
+      .flow-pulse { stroke-dasharray: 8, 8; animation: flow 15s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -1000; } }
+      .inter { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif; }
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="800" height="180" rx="16" fill="#030712" stroke="#1E293B" stroke-width="1.2"/>
+  <text class="mono" fill="#38BDF8" font-size="11" font-weight="600" x="30" y="32">ENTERPRISE PIPELINE ARCHITECTURE</text>
+
+  <!-- Flow Line Background -->
+  <path d="M130 95 H670" stroke="url(#flow-grad)" stroke-width="2" class="flow-pulse"/>
+
+  <!-- Node 1: Client Gateway -->
+  <rect x="30" y="55" width="130" height="80" rx="10" fill="#090D16" stroke="#334155" stroke-width="1.5"/>
+  <rect x="42" y="68" width="55" height="18" rx="4" fill="#0F172A"/>
+  <text class="mono" fill="#38BDF8" font-size="9" font-weight="600" x="48" y="80">REST API</text>
+  <text class="inter" fill="#F8FAFC" font-size="13" font-weight="700" x="42" y="105">Client App</text>
+  <text class="mono" fill="#64748B" font-size="9" x="42" y="122">Latency: &lt;12ms</text>
+
+  <!-- Node 2: Spring Boot Service -->
+  <rect x="230" y="55" width="150" height="80" rx="10" fill="#090D16" stroke="#38BDF8" stroke-width="1.5"/>
+  <rect x="242" y="68" width="85" height="18" rx="4" fill="#0284C7" fill-opacity="0.2"/>
+  <text class="mono" fill="#38BDF8" font-size="9" font-weight="700" x="248" y="80">CORE ENGINE</text>
+  <text class="inter" fill="#F8FAFC" font-size="13" font-weight="700" x="242" y="105">Spring Boot 3</text>
+  <text class="mono" fill="#64748B" font-size="9" x="242" y="122">Stateless Cluster</text>
+
+  <!-- Node 3: Event Broker -->
+  <rect x="440" y="55" width="140" height="80" rx="10" fill="#090D16" stroke="#334155" stroke-width="1.5"/>
+  <rect x="452" y="68" width="70" height="18" rx="4" fill="#0F172A"/>
+  <text class="mono" fill="#A855F7" font-size="9" font-weight="600" x="458" y="80">STREAM</text>
+  <text class="inter" fill="#F8FAFC" font-size="13" font-weight="700" x="452" y="105">Apache Kafka</text>
+  <text class="mono" fill="#64748B" font-size="9" x="452" y="122">Async Queues</text>
+
+  <!-- Node 4: Persistence -->
+  <rect x="640" y="55" width="130" height="80" rx="10" fill="#090D16" stroke="#334155" stroke-width="1.5"/>
+  <rect x="652" y="68" width="75" height="18" rx="4" fill="#0F172A"/>
+  <text class="mono" fill="#34D399" font-size="9" font-weight="600" x="658" y="80">DATABASE</text>
+  <text class="inter" fill="#F8FAFC" font-size="13" font-weight="700" x="652" y="105">PostgreSQL</text>
+  <text class="mono" fill="#64748B" font-size="9" x="652" y="122">Indexed / Pooled</text>
+</svg>

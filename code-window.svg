@@ -1,0 +1,31 @@
+<svg fill="none" viewBox="0 0 800 210" width="800" height="210" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="210" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="800" height="34" rx="10" fill="#161B22"/>
+  <circle cx="20" cy="17" r="4.5" fill="#FF5F56"/>
+  <circle cx="34" cy="17" r="4.5" fill="#FFBD2E"/>
+  <circle cx="48" cy="17" r="4.5" fill="#27C93F"/>
+  <text fill="#8B949E" font-family="monospace" font-size="11" x="330" y="21">SystemArchitecture.java</text>
+  <line x1="0" y1="34" x2="800" y2="34" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Code Syntax Highlighting -->
+  <text font-family="Consolas, 'Fira Code', monospace" font-size="12" x="25" y="65">
+    <tspan fill="#FF79C6">@RestController</tspan>
+  </text>
+  <text font-family="Consolas, 'Fira Code', monospace" font-size="12" x="25" y="88">
+    <tspan fill="#FF79C6">@RequestMapping</tspan><tspan fill="#F8F8F2">(</tspan><tspan fill="#F1FA8C">"/api/v1/system"</tspan><tspan fill="#F8F8F2">)</tspan>
+  </text>
+  <text font-family="Consolas, 'Fira Code', monospace" font-size="12" x="25" y="111">
+    <tspan fill="#FF79C6">public class</tspan> <tspan fill="#8BE9FD">BackendEngine</tspan> <tspan fill="#F8F8F2">{</tspan>
+  </text>
+  <text font-family="Consolas, 'Fira Code', monospace" font-size="12" x="45" y="134">
+    <tspan fill="#FF79C6">@Autowired</tspan> <tspan fill="#FF79C6">private</tspan> <tspan fill="#8BE9FD">Services</tspan> <tspan fill="#F8F8F2">services;</tspan>
+  </text>
+  <text font-family="Consolas, 'Fira Code', monospace" font-size="12" x="45" y="157">
+    <tspan fill="#6272A4">// Core Principle: Resilient, scalable, and fully automated</tspan>
+  </text>
+  <text font-family="Consolas, 'Fira Code', monospace" font-size="12" x="25" y="180">
+    <tspan fill="#F8F8F2">}</tspan>
+  </text>
+</svg>
